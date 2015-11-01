@@ -1,0 +1,12 @@
+Le code ci-joint fonctionne! (ou presque). Corriger tous les bugs de sécurité ou de performance avec ce code. 
+
+Oui, je sais, le code ne sert vraiment à rien et pourrait être beaucoup plus simple, mais ne changer rien de cela. Faites le minimum de modifications possible, le but n'est pas ici de moderniser le code, mais bien de fixer les bugs. J'insiste, si vous trouver un bug avec un pointeur par exemple, corriger le problème à la source et non pas en utilisant un smartpointer.
+
+Faites vos modifications directement dans le code et pour chaque bug ajouter un très court commentaire expliquant le problème.
+
+Le Makefile est très simple, modifier le si ça peut vous aider, mais il ne contient pas de bug.
+
+Hints:
+- Il y a beaucoup de bug (entre 10 et 20)
+- Vous êtes sur un ordinateur servez-vous en! Il existe des bons outils pour vous aider, ex: GCC, Clang, Valgring, cppcheck, etc
+- Je vais corriger semi-négatif, c'est-à-dire enlever un petit peu de point à chaque fois que vous inventer un bug qui n'existe pas.

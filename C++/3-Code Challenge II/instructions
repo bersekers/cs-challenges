@@ -1,0 +1,8 @@
+Écrivez un programme C++ qui lit le fichier fourni, compte le nombre d'occurence de chaque mot et sauvegarder le résultat dans un fichier json.
+
+Le format doit correspondre à:
+
+{
+"mot1": 5,
+"mot2": 3
+}

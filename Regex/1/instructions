@@ -1,0 +1,19 @@
+Concevez une regex en mesure de "match" un code postal canadien. L'utilisateur doit pouvoir spécifier ou non un espace et utiliser à sa guise des majuscules ou minuscules. Un code postal n'utilise jamais les lettres D,F,I,O,Q et U et la première lettre n'est jamais W ou Z. 
+
+
+Rappel: Un code postal est composé de 6 caractères et est sous forme d'une alternance de lettres et de chiffres en commençant par une lettre.
+
+Données de test:
+
+Cas valides:
+G1Z 4B6
+G1Z4B6
+g1z4b6
+g1z 4b6
+
+Cas invalide:
+G11 4B6
+Z1Z 4B6
+G1Z  4B6
+G1Z 4D6
+GGZ 4D6

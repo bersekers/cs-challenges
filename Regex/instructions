@@ -1,0 +1,19 @@
+Les Regular Expressions (Regex) sont un langage de "pattern matching", c'est-à-dire qu'ils permettent de faire une recherche de texte (très) avancée. 
+
+Par exemple:
+Sélectionner n'importe quoi: .*
+Sélectionner le mot patate: patate
+Sélectionner le mot patate qu'il soit au pluriel ou au singulier: patates?
+Sélectionner un nombre de patates: \d+ patates?
+
+Pour ces challenges vous avez droit à une cheat sheet sur les regex. Points bonus si vous ne la demander pas!
+
+Tous les challenges sont fournis avec des exemples de cas sur lesquelles la regex doit fonctionner (ou ne pas fonctionner). Tachez de répondre aux questions d'une façon générique puisque je testerai vos regex sur des cas semblables, mais non identiques. Par exemple, si la question est de trouver le nombre ayant entre 5-12 chiffres et que je donne le cas d'exemple 123456
+
+alors je m'attends à quelque chose comme:
+\d{5,12}
+
+et non:
+123456
+
+

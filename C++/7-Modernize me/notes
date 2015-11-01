@@ -1,0 +1,12 @@
+boucle avec un int extérieur
+type super compliqué à remplacer par un auto
+remplacer des defines par des const
+spoter une constexpr
+changer les mallocs pour des new
+Utiliser des smarts pointers
+Utiliser des vecteurs au lieu de tableau
+remplacer un for i par un for in range
+ajouter un override sur une méthode dérivée
+remplacer les comparaisons de pointeurs avec 0 par nullptr
+remplacer un enum par un enum class
+Utiliser des références au lieu de pointeurs la où c'est possible

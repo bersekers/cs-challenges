@@ -1,0 +1,20 @@
+Le format d'une balise html est:
+
+<nom_de_la_balise argument="valeur" argument>Contenu</nom_de_la_balise>
+ou
+<nom_de_la_balise argument="valeur" argument>
+
+Vous n'avez pas besoin de supporter les balises de types xhtml (ex: <br />
+Il n'y aura pas de balises imbriquées
+
+Concevez une regex en mesure de sélectionner toutes les balises ainsi que leur contenu dans le texte suivant:
+
+
+<font size="3" color"red">I am too dumb to use CSS</font>Some normal text<input type="text" value="value" required><br>
+
+
+Les retours devraient être:
+
+<font size="3" color"red">I am too dumb to use CSS</font>
+<input type="text" value="value" required>
+<br>

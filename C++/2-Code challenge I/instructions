@@ -1,0 +1,4 @@
+Écrivez une fonction C++ qui compte le nombre de "1" dans la représentation binaire d'un long. Le nombre de points dépendra aussi d'à quelle point le code est efficace SANS OPTIMISATIONS du compilateur. 
+
+ex: 5 en binaire = 101 soit 2 "1".
+

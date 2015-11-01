@@ -1,0 +1,12 @@
+Indice 1:
+Constante de temps en secondes: Tau = RC
+V(t) = V_0 * (1 - e^(-t/Tau))
+
+
+Indice 2:
+Un arduino est en 5V
+V_0: tension appliquée sur le circuit
+
+Tau est en seconde, donc que ce passe-t'il quand le temps égal à Tau?
+| V(t) / V_0 | = 1 - e^(-1)
+| V(t) / V_0 | = 0.632

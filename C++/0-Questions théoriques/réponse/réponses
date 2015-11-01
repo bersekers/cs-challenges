@@ -1,0 +1,37 @@
+1-
+Le stack représente la mémoire des objets déclarés au sein de la fonction actuelle. Ceux-ci sont perdus lorsque la fonction retourne. Le heap représente la mémoire globale du programme. Les variables globales ainsi que les objets dynamiques y sont stoqués.
+
+2-
+Elle alloue la quantité de mémoire spécifié par son argument sur le heap et retourne un pointeur vers cet endroit.
+
+3-
+Effectue une action par rapport aux nouveaux boutons appuyés sur un clavier. C'est-à-dire que ce code empèche la répétition de touche.
+
+4-
+-Os: Optimiser pour la taille du binaire
+-Wall: Activer tous les Warnings
+-g3: Activer le niveau maximum de déboggage
+-flto: Active l'optimisation "link time optimization"
+-lpthread: Link le programme sur la librairie pthread.
+-o main: Chemin du binaire résultant
+main.c: Fichier à compiler
+
+5-
+Il libère le processeur de lui même copier des données d'un périphérique vers ou vers ou à partir de la mémoire.
+
+6-
+sin(x) = x - x^3/6
+
+7-
+Pour éviter des erreurs d'arrondi, pour la performance et pour l'économie de mémoire, il faut utiliser un format de nombre entier d'au moins 12 bits comme uint16_t. Int ou unsigned int est aussi accepté. Un format plus gros comme uint32_t ou long entraîne une perte de mémoire et de performance dans un micro 16 bits. La valeur 0 correspond à 15 degrées et la valeur 4095 (le max représenté par 12 bits) à 25 degrés. Chaque incrément de 1 bit représente donc un incrément de 0.0024 degré Celcius.
+
+8-
+- Mettre un filtre RC passe-bas entre le bouton et la pin du microcontrolleur
+- S'assurer qu'un nombre de millisecondes minimal se soit passé entre deux lectures du boutons.
+
+9-
+Faire un filtre RC avec une valeur de résistance connue. Alimenter le circuit avec une pin en mode output et mesurer en même temps la tension du condensateur avec une pin en mode analog input. Chronométrer le temps entre l'activation de la pin output et une mesure de tension de 3.15 V (63% de 5V). Cela correspond à la constante de temps (Tau) du filtre. On peut retrouver C sachant que Tau=RC.
+
+10-
+Copie une string (tableau de char) vers une autre destination. L'équivalent de strcpy
+

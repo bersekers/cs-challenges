@@ -1,0 +1,8 @@
+Votre machine a plus d'un coeur pas vrai? Alors vos programmes devraient les utiliser. Modifier le code inclus pour qu'il soit en mesure de maximiser l'utilisation de tous les coeurs de votre machine. Pour cela, utiliser pthread ou Threading (C++11).
+
+Modifier l'étape de calcul, c'est à dire la fonction cellsSum. Celle-ci calcule la somme de toutes les cellules de la matrice
+
+Conseils:
+Si vous ne connaissez aucun des deux API, utiliser le threading de C++11, il est plus simple.
+
+

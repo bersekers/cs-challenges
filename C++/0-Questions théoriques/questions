@@ -1,0 +1,40 @@
+Ces questions sont difficiles et touchent plusieurs aspects de la programmation de bas niveau, ne vous inquièter pas si vous n'avez pas la réponse à plusieurs d'entre elles. Un maximum de ligne est suggéré à chaque question. Vous ne perderez pas (directement) de points si vous dépasser, c'est avant tout une indication pour vous aider à mieux gérer votre temps sachant que plusieurs challenges seront à faire.
+
+
+1- Quelle est la différence entre le heap et le stack (le monceau et la pile). Max 3 lignes
+2- Que fais la fonction malloc? Max 2 lignes
+3- Décrivez le fonctionnement de ce code. Max 5 lignes
+
+uint16_t lastKeys = 0;
+uint16_t diff, currentKeys;
+while (1) { 
+	currentKeys = scanKeyboard(); 
+	if ((diff = (uint16_t) (currentKeys & (~lastKeys))) || !currentKeys)
+		lastKeys = currentKeys;
+	faire_quelque_chose(diff);
+}
+
+4- Que signifie les 8 paramètres de cette commande GCC:
+	gcc -Os -Wall -g3 -flto -lpthread -o main main.c
+
+5- À quoi sert le DMA dans un microcontrolleur ou un ordinateur. Max 3 lignes
+
+6- Quelle est la série de Taylor de degré 3 approximant un sinus autour de 0 ?
+
+7- Un microcontrolleur lit, avec son convertisseur analogique à numérique à 12 bits, la température d'une cuve de fermentation à l'aide d'un thermomètre. Votre microcontrolleur fonctionne en 5V. Le thermomètre retourne une valeur entre 0 et 5V correspondant aux températures respectivement entre 15-25 degrées Celcius. Assumer que le comportement du thermomètre est linéaire.
+Dans quel type de variable devriez-vous sauvegardé la valeur lue de façon à conserver le maximum de précision (char, int, long, float, double, etc), pourquoi? S'il y a lieu, expliquer aussi à quoi corresponde les valeurs que vous enregistrez. Max 10 lignes
+
+8- Expliquer une façon de faire le "debounce" d'un bouton. Max 2 lignes
+
+9- Comment pourriez-vous faire pour mesurer la capacitance (en Farrad) d'un condensateur à l'aide d'un Arduino ? Demander un ou deux indices au besoin. Max 8 lignes, vous pouvez faire un dessin si nécessaire.
+
+10- Que fais ce code et à quoi peut-il servir ? Existe-t-il un équivalent dans la librairie standard du C ? Max 2 lignes
+
+while (*p++ = *q++) ;
+
+
+
+
+
+Table ASCII:
+

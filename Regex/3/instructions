@@ -1,0 +1,56 @@
+Les programmeurs sont des gens bizzare et ne sont pas capable de se contenter la notation décimale pour leur nombres ... Alors coder une regex permettant d'indentifier toules les notations de nombre C++. Ceux-ci sont sous forme de:
+[signe][préfixe de base optionnel][nombre][point][décimales][suffixe litéral optionnel]. 
+
+Le préfix de nombre est l'un des suivants:
+binaire: 0b ou 0B
+hexadécimal: 0x
+octales: 0
+
+Le signe est utilisé pour représenter un nombre négatif
+
+Un point peut être ajouté sans nécessairement qu'il y ait de décimal
+
+Considérer le litéral optionnel parmis ceux-ci:
+u ou U (unsigned)
+l ou L (long)
+l/L et u/U (unsigned long)
+ll ou LL (long long)
+ll/LL et u/U (unsigned long long)
+f ou F (float)
+
+
+Vous n'avez pas besoin de supporter la notation scientifique.
+
+
+Point bonus si la regex valide en même temps que le nombre correspond au format de son préfix
+
+
+Cas valide:
+5
+0xFF
+5.
+5.0123
+50
+0b
+0b10101
+-0xF
+5l
+5L
+5lu
+.5f
+
+Cas invalides:
+0x-5
+0xFG
+1xFF
+345g
+5,6
+
+
+Cas invalides bonus:
+-5u
+09
+56B1
+0b123
+
+

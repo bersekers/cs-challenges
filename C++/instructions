@@ -1,0 +1,37 @@
+Votre temps est limité, faites en premier la question 0 puis choisissez les challenges où vous pensez être le plus à l'aise.
+
+
+Question 0:
+Consiste en quelques questions théoriques à faire sur une feuille. Vous n'aurez alors pas accès à internet. 
+
+
+
+
+Cette partie consiste en différents défis de programmation en C++, dans ce cas vous aurez accès à internet, mais le plagiat et l'utilisation de librairies autre que la librairie standard est interdit.
+Si vous êtes bloqué, vous pouvez demander conseils. Un petit nombre de points vous seront alors retranché, mais c'est mieux que ne rien remettre.
+
+Hints:
+
+- Si vous utilisez Eclipse, vous pouvez charger les projets comme Makefile project. Appeler moi si vous avez besoin d'aide
+- Je vais corriger avec la dernière version stable de GCC ou de Clang/LLVM (selon le Makefile). 
+- Modifier les Makefile si vous voulez, mais il doit toujours fonctionner sur mon ordinateur (voir point précédant).
+
+Question 1:
+Du code C++ vous est fourni. Compiler le.
+
+Question 2:
+Écriver une fonction C++ pour retrouver le nombre de "1" dans la représentation binaire d'un nombre.
+
+Question 3:
+Compter le nombre d'occurences de mots dans un fichier et produire un rapport JSON.
+
+Question 4:
+Ce code compile, mais est bourré de bugs potentiels et de problèmes de performance (ahhh, le C++ ...). Corriger tout ça.
+
+Question 5:
+Tenter de décrypter le texte fourni.
+
+Question 6:
+Accélérer le code fourni en utilisant du multithreading.
+
+

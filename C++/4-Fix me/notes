@@ -1,0 +1,30 @@
+
+
+dépassement de la plage d'un nombre
+comparaison d'un signed avec un unsigned
+indice de boucle incorrect
+Code non exception safe (fuite de mémoire si exception)
+
+
+OK:
+
+Passe un très gros objet par copie
+memcpy avec collision
+memcpy qui dépasse
+Copy un tableau de char au début d'une autre avec le \0
+malloc pour une string qui ne prend pas en compte les \0
+Retourne un pointeur d'objet aloué sur le stack
+Paramètre optionnel lu à partir de l'indice 0 de argv au lieu 1
+Argc comment à compter à partir de 1
+new/malloc sans delete/free
+new/malloc d'un tableau 2D sans delete/free des tableaux internes
+memcpy qui détruit le \0 d'une string
+malloc(3) au lieu de malloc(sizeof(shit)*3)
+Perte d'information par division entière
+Dépassement d'un tableau
+Destructeur manquant
+
+Mineurs:
+Ne vérifie pas que les entreées de l'utilisateur sont vraiment des nombres entiers positifs
+Pas de check de succès des mallocs
+Pas de header guard
